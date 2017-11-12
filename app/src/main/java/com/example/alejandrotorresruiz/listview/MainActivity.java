@@ -34,7 +34,30 @@ public class MainActivity extends AppCompatActivity {
         names.add(new Titular("Alex","prueba"));
         names.add(new Titular("Alex","prueba"));
         names.add(new Titular("Alex","prueba"));
-
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
+        names.add(new Titular("Alex","prueba"));
 
         /* Manera simple de enlazar nuestro listView con un adaptador predeterminado
         //Creamos el adaptador
@@ -51,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         //Seleccionar elementos del textView
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> a, View v, int position, long id) {
-                Toast.makeText(MainActivity.this,"Has seleccionado "+names.get(position),Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Has seleccionado "+names.get(position).getTitulo(),Toast.LENGTH_LONG).show();
             }
         });
     }
